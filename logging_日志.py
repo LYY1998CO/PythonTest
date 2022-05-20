@@ -1,0 +1,10 @@
+f=open('C:\\Users\\27156\\Desktop\\日志logging.txt','a',encoding='utf-8')
+str1='每日任务：'
+f.write(str1)
+str2='\n打字游戏是否每日完成？1代表完成，0代表未完成'
+f.write(str2)
+str3='\n墨墨记单词是否每日完成？1代表完成，0代表未完成'
+f.write(str3)
+str4='\n每日知识点回顾是否每日完成？1代表完成，0代表未完成'
+f.write(str4)
+f.close()

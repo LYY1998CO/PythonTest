@@ -1,0 +1,7 @@
+f=open('movie.txt','a+',encoding='utf-8')
+f.write('\t功夫，周星驰')
+f.write('\n\t一出好戏，黄渤')
+f.write('\n\t我不是药神，徐峥')
+# str1=f.read()
+# print(str1)
+f.close()
